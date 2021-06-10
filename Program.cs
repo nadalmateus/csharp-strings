@@ -6,7 +6,9 @@ namespace csharpStrings
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var id = Guid.NewGuid();
+            id.ToString();
+            Console.WriteLine(id);
         }
     }
 }
