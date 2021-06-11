@@ -8,7 +8,6 @@ namespace csharpStrings
         {
             var id = Guid.NewGuid();
             id.ToString();
-            Console.WriteLine(id);
         }
     }
 }
