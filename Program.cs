@@ -7,13 +7,7 @@ namespace csharpStrings
         static void Main(string[] args)
         {
             var text = "Esse texto é um teste";
-            Console.WriteLine(text.StartsWith("Esse"));
-            Console.WriteLine(text.EndsWith("teste"));
-
-
-
-
-
+            Console.WriteLine(text.Equals("Esse texto é um teste"));
         }
     }
 }
