@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.VisualBasic;
 
 namespace csharpStrings
 {
@@ -7,16 +8,11 @@ namespace csharpStrings
         static void Main(string[] args)
         {
             var text = "Esse texto é um teste";
-            Console.WriteLine(text.IndexOf("é"));
-            Console.WriteLine(text.ToLower());
-            Console.WriteLine(text.ToUpper());
-            Console.WriteLine(text.Insert(11, "aqui "));
-            Console.WriteLine(text.Remove(5, 5));
-            Console.WriteLine(text.Length);
+            Console.WriteLine(text.Replace("x", "X"));
 
 
-
-
+            var divisisao = text.Split(" ");
+            Console.WriteLine(divisisao[0]);
         }
     }
 }
