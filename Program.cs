@@ -12,7 +12,7 @@ namespace csharpStrings
 
 
             var divisisao = text.Split(" ");
-            Console.WriteLine(divisisao[4]);
+            Console.WriteLine(divisisao[0]);
         }
     }
 }
